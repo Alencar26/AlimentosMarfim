@@ -1,2 +1,2 @@
 # AlimentosMarfim
-trabalho bimestre
+Trabalho em ASP.NET CORE MVC / Banco de dados
