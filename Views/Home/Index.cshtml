@@ -12,8 +12,9 @@
 @if (SignInManager.IsSignedIn(User))
 {
     <div class="text-center">
-        <h1>TEU CU</h1>
-    </div>
+            <a asp-area="" asp-controller="Cliente" asp-action="Index" class="btn btn-primary">Gerenciar Cliente</a>
+
+        </div>
         }
         else
         {
