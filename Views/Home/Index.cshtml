@@ -12,14 +12,25 @@
 @if (SignInManager.IsSignedIn(User))
 {
     <div class="text-center">
-            <a asp-area="" asp-controller="Cliente" asp-action="Index" class="btn btn-primary">Gerenciar Cliente</a>
-
+        <div>
+            
         </div>
+        <div>
+            <a asp-area="" asp-controller="Cliente" asp-action="Index" class="btn btn-primary">Clientes</a>
+            <a asp-area="" asp-controller="Funcionario" asp-action="Index" class="btn btn-primary">Funcionários</a>
+            <a asp-area="" asp-controller="Produto" asp-action="Index" class="btn btn-primary">Produtos</a>
+            <a asp-area="" asp-controller="Setor" asp-action="Index" class="btn btn-primary">Setores da Fábrica</a>
+            <a asp-area="" asp-controller="Turno" asp-action="Index" class="btn btn-primary">Turno de Funcionários</a>
+            <a asp-area="" asp-controller="Venda" asp-action="Index" class="btn btn-primary">Vendas</a>
+        </div>
+        
+
+    </div>
         }
         else
         {
-        <div class="text-center">
-            <h1 class="display-4">Registre-se para continuar</h1>
+        <div class="tela-inicial">
+            <h1 class="display-4">Alimentos Marfim</h1>
         </div>
         }
 

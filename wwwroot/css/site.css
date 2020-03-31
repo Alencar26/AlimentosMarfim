@@ -62,6 +62,12 @@ body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
 }
+
+/*   TO AQUI   */
+body .tela-inicial{
+    background: blue;
+}
+
 .footer {
   position: absolute;
   bottom: 0;
